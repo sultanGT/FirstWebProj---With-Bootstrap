@@ -1,0 +1,14 @@
+{
+  "vars": {},
+  "css": [
+    "responsive-utilities.less",
+    "glyphicons.less",
+    "component-animations.less",
+    "carousel.less"
+  ],
+  "js": [
+    "carousel.js",
+    "transition.js"
+  ],
+  "customizerUrl": "<none>"
+}
