@@ -100,12 +100,6 @@ li.active a {
   text-shadow: 2px 2px 4px #000000;
 }
 
-
-#content {
-  transition: 0.7s;
-  overflow: hidden;
-}
-
 /* menuOne */
 .menuOne{
   width: 30px;
@@ -212,28 +206,14 @@ li.active a {
   bottom: 6px;
 }
 
-.container {
-  margin: 0 auto;
-  font-size: 24px;
-  padding: 100px 50px;
-  background: rgb(255,255,255,0.1);
-}
-
-.parallax {
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-}
-
 .jumbotron {
 
   display:block;
-  width: 900px;
-  border-bottom: 5px solid;
-  border-color: rgba(255,99,71,0.5);
+  width: 800px;
+
   position: relative;
-  margin: auto auto;
-  top: 40vh;
+  margin:  auto auto;
+  top: 25vh;
   z-index: 2;
 }
 
@@ -241,7 +221,14 @@ li.active a {
   font-size: 100px;
   font-weight: 600;
   color: #f8f8f8;
-  overflow-wrap: break-word;
+}
+
+.jumbotron h3 {
+  text-decoration: underline;
+  position:absolute;
+  font-size: 80px;
+  font-weight: 600;
+  color: tomato;
 }
 
 .button-scroll {
@@ -251,7 +238,7 @@ li.active a {
   height: 50px;
   width: 200px;
   z-index: 2;
-  margin: 350px auto 0 auto;
+  margin: 400px auto 0 auto;
   border-radius: 50px;
   line-height: 50px;
   text-align: center;
@@ -277,11 +264,11 @@ li.active a {
   position:relative;
   float:right;
   width: 70vw;
-  height: 100;
+  height: 100%;
 }
 
 .carousel-indicators {
-  margin-bottom: 0;
+  margin-bottom: -5px;
 }
 
 img {
@@ -289,7 +276,18 @@ img {
   height: 100%;
 }
 
+.parrallax {
+  height: 100vh;
+}
 
+.info {
+  margin-top: 200px;
+  display:block;
+  position: relative;
+  z-index: 2;
+  background: rgb(255,255,255,0.3);
+  color: black;
+}
 
 
 
