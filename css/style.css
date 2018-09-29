@@ -209,8 +209,7 @@ li.active a {
 .jumbotron {
 
   display:block;
-  width: 800px;
-
+  width: 740px;
   position: relative;
   margin:  auto auto;
   top: 25vh;
@@ -229,6 +228,7 @@ li.active a {
   font-size: 80px;
   font-weight: 600;
   color: tomato;
+  line-height:80px;
 }
 
 .button-scroll {
@@ -257,7 +257,17 @@ li.active a {
 
 .button-scroll:hover {
   cursor: pointer;
-  background: rgb(255,83,71, 1);
+  color:black;
+  background: rgb(255,255,255, 01);
+  color:black;
+
+  
+
+}
+.button-scroll div:hover {
+transition: 0.5s;
+  color:black;
+
 }
 
 .carousel {
@@ -285,9 +295,31 @@ img {
   display:block;
   position: relative;
   z-index: 2;
-  background: rgb(255,255,255,0.3);
+  background: rgb(255,255,255,1);
+  color: green;
+  box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.75);
+
+}
+
+.about-title {
+  position: relative;
+  z-index:2;
+  font-size: 50px;
   color: black;
+  text-align: center;
+
+}
+
+.info2 {
+  margin-top: 100px;
+  position: relative;
+  background: rgb(255,255,255,0.5);
+  z-index:2;
+  color: red;
 }
 
 
-
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1px;
+}
