@@ -93,33 +93,40 @@ var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
+    	
        		labels: ["HTML5", "CSS3", "JavaScript", "jQuery" , "PHP" , "Version Control (git)", "Bootstrap", "Java", "C++", "MySQL"],
        		datasets: [{
             label: '# of Votes',
             data: [50, 50, 50, 10, 15, 20, 15, 20, 10, 15],
             backgroundColor: [
-                'rgba(255, 99, 132, .5)',
-                'rgba(54, 162, 235, .5)',
-                'rgba(255, 206, 86, .5)',
-                'rgba(25, 206, 86, .5)',
-                'rgba(255, 26, 86, .5)',
-                'rgba(55, 206, 86, .5)',
-                'rgba(255, 206, 86, .5)',
-                'rgba(25, 206, 8, .5)',
-                'rgba(55, 06, 86, .5)',
-                'rgba(55, 76, 86, .5)'
+                'rgba(255, 99, 132 )',
+                'rgba(54, 162, 235 )',
+                'rgba(255, 206, 86)',
+                'rgba(25, 206, 255)',
+                'rgba(255, 26, 86)',
+                'rgba(55, 26, 86)',
+                'rgba(255, 206, 186)',
+                'rgba(25, 206, 8)',
+                'rgba(55, 106, 86)',
+                'rgba(55, 76, 86)'
             ],
             borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)'
+                'rgba(0,0,0,1)',
+                'rgba(0,0,0,1)',
+                'rgba(0,0,0,1)',
+                'rgba(0,0,0,1)',
+                'rgba(0,0,0,1)',
+                'rgba(0,0,0,1)',
+                'rgba(0,0,0,1)',
+                'rgba(0,0,0,1)',
+                'rgba(0,0,0,1)',
+                'rgba(0,0,0,1)',
             ],
             borderWidth: 1
         }]
     },
      options: {
-    
+    	
 			    tooltips: {
 			      callbacks: {
 			        label: function(tooltipItem, data) {
