@@ -12,7 +12,6 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/menuicon.css">
-	<link rel="stylesheet" type="text/css" href="css/mediumscreens.css">
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -101,14 +100,14 @@
 <!--Header-->
 <section id="#home"></section>
 	<div class="parallax" id="home" data-parallax="scroll" data-z-index="1" data-image-src="https://images.unsplash.com/photo-1537295300199-f10d0865dd26?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f32ee6fb12b730c4ed7020a35535babb&auto=format&fit=crop&w=2700&q=80">
-			<div class="grey"></div>
+			<div class="background-overlay"></div>
 				<div class="jumbotron">
 					<h2 class="ml12">Welcome to my portfolio</h2>
 						<h3>
 					  <span class="txt-rotate" data-period="2500" data-rotate='[ "website...", "designed by Sultan Malik..."]'>
 					  </span>
 					  </h3>
-					  <a href="#about" class="button-scroll">
+					  <a href="#about" class="about-button">
 						<div>About</div>
 					</a>
 				</div>
@@ -132,7 +131,7 @@
 
 				        <div id="#my-carousel" class="item">
 				            <img alt="Second slide" src="https://images.unsplash.com/photo-1516564320131-6709fd1d7792?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1a57c6bb7e237327cbc4b94e68cc311b&auto=format&fit=crop&w=1950&q=80">
-				            <div class="overlay">
+				            <div class="overlay-carousel">
 				                	
 				                </div>
 				            <div class="carousel-caption">
@@ -143,7 +142,7 @@
 
 				        <div id="#my-carousel" class="item">
 				            <img alt="Third slide" src="https://images.unsplash.com/photo-1514417034809-c7b296354f07?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bf638b536dab115f40ba91652af4f302&auto=format&fit=crop&w=1951&q=80">
-				            <div class="overlay">
+				            <div class="overlay-carousel">
 				                	
 				                </div>
 				            <div class="carousel-caption">
@@ -190,7 +189,7 @@
 <!-- Skills -->
 <section id="skills">
 	<div class="info-container-2">
-		<div class="circle-container">
+		<div class="circle-container circle-container-mobile">
 			<div class="circle">
 				<img class="icon iconhtml" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png">
 		
@@ -205,16 +204,12 @@
 			</div>
 		</div>
 
-			<div class="strengths-title">
+			<div class="expertise-title">
 				<h1>My Expertise</h1>
 				<p>Here are a some of my core strengths</p>
 			</div>
 
-			<div class="other-strengths">
-				<h1>My Skills</h1>
-			</div>
-
-			<div class="chart">
+			<div class="chart">My Skills
 			<canvas id="myChart" width="500" height="500"></canvas>
 		</div>
 	</div>
