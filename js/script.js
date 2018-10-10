@@ -10,7 +10,7 @@
 window.onscroll = function() {
 
 		if (window.pageYOffset > 150) {
-			nav.style.background = "rgb(0,0,0, 0.7)";
+			nav.style.background = "black";
 			nav.style.height = "60px";
 			
 
