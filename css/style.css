@@ -89,6 +89,10 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
   display: none;
 }
 
+iframe {
+  height: 213.33px;
+}
+
 }
 
 
@@ -218,7 +222,7 @@ li.active a {
   background: black;
   z-index: 2;
   opacity: .5;
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 
@@ -469,9 +473,7 @@ span.glyphicon.glyphicon-chevron-left {
     z-index: 3;
   }
 
-  iframe {
-    height: 296px;
-  }
+
 
   span.glyphicon.glyphicon-chevron-left {
     display:none;
