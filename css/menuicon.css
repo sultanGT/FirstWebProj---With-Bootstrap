@@ -106,112 +106,15 @@
 
 @media only screen and (max-width: 600px) {
   .menuOne{
-    display: none;
-  }
-/* menuOne-mobile */
-.menuOne-mobile{
   width: 30px;
   height: 30px;
   position: relative;
   float: right;
-  right: 100px;
+  right: 10%;
   transition: .2s;
   margin: 15px 0 0 100px;
   cursor: pointer;
   display: inline-block;
-}
-.menuOne-mobile span{
-  width: 5px;
-  height: 5px;
-  background-color: #fff;
-  display: block;
-  border-radius: 50%;
-  transition: .2s;
-}
-.menuOne-mobile:hover span{
-  transform: scale(1.3);
-  transition: .3s cubic-bezier(.8, .5, .2, 1.4);
-  background: tomato;
-}
-
-.menuOne-mobile span:nth-child(1){
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.menuOne-mobile span:nth-child(2){
-  position: absolute;
-  left: 12px;
-  top: 0;
-
-}
-.menuOne-mobile span:nth-child(3){
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.menuOne-mobile span:nth-child(4){
-  position: absolute;
-  left: 0;
-  top: 12px;
-}
-.menuOne-mobile span:nth-child(5){
-  position: absolute;
-  left: 12px;
-  top: 12px;
-}
-.menuOne-mobile span:nth-child(6){
-  position: absolute;
-  right: 0px;
-  top: 12px;
-}
-.menuOne-mobile span:nth-child(7){
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-}
-.menuOne-mobile span:nth-child(8){
-  position: absolute;
-  left: 12px;
-  bottom: 0px;
-}
-.menuOne-mobile span:nth-child(9){
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
-}
-.clickMenuOne-mobile{
-
-  transform: rotate(180deg);
-  cursor: pointer;
-  transition: .2s cubic-bezier(.8, .5, .2, 1.4);
-
-}
-.clickMenuOne-mobile span{
-  border-radius: 50%;
-  transition-delay: 200ms;
-  transition: .5s cubic-bezier(.8, .5, .2, 1.4);
-
-}
-.clickMenuOne-mobile span:nth-child(2) {
-  position: absolute;
-  left: 6px;
-  top: 6px;
-}
-.clickMenuOne-mobile span:nth-child(4) {
-  position: absolute;
-  left: 6px;
-  top: 18px;
-}
-.clickMenuOne-mobile span:nth-child(6) {
-  position: absolute;
-  right: 6px;
-  top: 6px;
-}
-.clickMenuOne-mobile span:nth-child(8) {
-  position: absolute;
-  left: 18px;
-  bottom: 6px;
 }
 
 }
